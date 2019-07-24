@@ -1,0 +1,35 @@
+{
+    "name": "wand/annotation-visibility",
+    "description": "emulates friendship, package-private and so on with annotation.",
+    "keywords": ["friendship", "package-private", "annotation"],
+    "type": "library",
+    "require": {
+        "ray/aop": "^2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wand2016",
+            "email": "d19921207@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "WandTa\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit tests"
+        ]
+    }
+}
