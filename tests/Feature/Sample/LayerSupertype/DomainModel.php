@@ -12,6 +12,6 @@ class DomainModel
     /**
      * @VisibleTo("Tests\Feature\Sample\LayerSupertype\ServiceBase")
      */
-    public function someOperation(): void
+    public function someOperation()
     { }
 }
